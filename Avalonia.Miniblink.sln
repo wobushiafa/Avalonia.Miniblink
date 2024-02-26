@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.Miniblink.Sample", "Avalonia.Miniblink.Sample\Avalonia.Miniblink.Sample.csproj", "{373F6F68-830E-4D3B-A4F8-AE8AEF9C2BC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.Miniblink", "Avalonia.Miniblink\Avalonia.Miniblink.csproj", "{5F0B0D0E-77A4-4C49-9D22-26820D30372C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{373F6F68-830E-4D3B-A4F8-AE8AEF9C2BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373F6F68-830E-4D3B-A4F8-AE8AEF9C2BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373F6F68-830E-4D3B-A4F8-AE8AEF9C2BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373F6F68-830E-4D3B-A4F8-AE8AEF9C2BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0B0D0E-77A4-4C49-9D22-26820D30372C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0B0D0E-77A4-4C49-9D22-26820D30372C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0B0D0E-77A4-4C49-9D22-26820D30372C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0B0D0E-77A4-4C49-9D22-26820D30372C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
