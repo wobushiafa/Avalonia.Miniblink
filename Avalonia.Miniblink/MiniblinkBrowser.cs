@@ -20,6 +20,7 @@ public class MiniblinkBrowser : NativeControlHost
     
     public EventHandler<LoadingFinishEventArgs>? LoadingFinshed { get; set; }
     public EventHandler<UrlChangeEventArgs>? UrlChanged { get; set; }
+    public EventHandler<NavigateEventArgs>? Navigated { get; set; }
 
     static MiniblinkBrowser()
     {
@@ -35,7 +36,7 @@ public class MiniblinkBrowser : NativeControlHost
         
         _webView.OnLoadingFinish += HandleLoadingFinished;
         _webView.OnURLChange += HandleUrlChanged;
-        
+        _webView.OnNavigate += HandleNavigated;
         _webView.NavigationToNewWindowEnable = false;
         LoadUrl(Source);
 
@@ -48,6 +49,7 @@ public class MiniblinkBrowser : NativeControlHost
         {
             _webView.OnLoadingFinish -= HandleLoadingFinished;
             _webView.OnURLChange -= HandleUrlChanged;
+            _webView.OnNavigate -= HandleNavigated;
         }
         _webView?.Dispose();
         _webView = null;
@@ -72,5 +74,7 @@ public class MiniblinkBrowser : NativeControlHost
     #region Callbacks
     private void HandleUrlChanged(object? sender, UrlChangeEventArgs e) => UrlChanged?.Invoke(this,e);
     private void HandleLoadingFinished(object? sender, LoadingFinishEventArgs e) => LoadingFinshed?.Invoke(this,e);
+    private void HandleNavigated(object sender, NavigateEventArgs e) => Navigated?.Invoke(this, e);
+
     #endregion
 }

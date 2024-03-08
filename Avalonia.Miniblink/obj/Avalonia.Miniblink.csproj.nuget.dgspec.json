@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\CodeRepository\\CSharp\\ZBH.Class\\Avalonia.Miniblink\\Avalonia.Miniblink\\Avalonia.Miniblink.csproj": {}
+  },
+  "projects": {
+    "F:\\CodeRepository\\CSharp\\ZBH.Class\\Avalonia.Miniblink\\Avalonia.Miniblink\\Avalonia.Miniblink.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\CodeRepository\\CSharp\\ZBH.Class\\Avalonia.Miniblink\\Avalonia.Miniblink\\Avalonia.Miniblink.csproj",
+        "projectName": "Avalonia.Miniblink",
+        "projectPath": "F:\\CodeRepository\\CSharp\\ZBH.Class\\Avalonia.Miniblink\\Avalonia.Miniblink\\Avalonia.Miniblink.csproj",
+        "packagesPath": "D:\\.nuget\\packages",
+        "outputPath": "F:\\CodeRepository\\CSharp\\ZBH.Class\\Avalonia.Miniblink\\Avalonia.Miniblink\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\DevTools\\VisualStudio\\SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget-feed-nightly.avaloniaui.net/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.0.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

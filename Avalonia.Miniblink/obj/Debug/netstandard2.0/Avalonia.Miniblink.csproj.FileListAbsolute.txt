@@ -1,0 +1,12 @@
+F:\CodeRepository\CSharp\ZBH.Class\Avalonia.Miniblink\Avalonia.Miniblink\bin\Debug\netstandard2.0\Avalonia.Miniblink.deps.json
+F:\CodeRepository\CSharp\ZBH.Class\Avalonia.Miniblink\Avalonia.Miniblink\bin\Debug\netstandard2.0\Avalonia.Miniblink.dll
+F:\CodeRepository\CSharp\ZBH.Class\Avalonia.Miniblink\Avalonia.Miniblink\bin\Debug\netstandard2.0\Avalonia.Miniblink.pdb
+F:\CodeRepository\CSharp\ZBH.Class\Avalonia.Miniblink\Avalonia.Miniblink\obj\Debug\netstandard2.0\Avalonia.Miniblink.csproj.AssemblyReference.cache
+F:\CodeRepository\CSharp\ZBH.Class\Avalonia.Miniblink\Avalonia.Miniblink\obj\Debug\netstandard2.0\Avalonia\Resources.Inputs.cache
+F:\CodeRepository\CSharp\ZBH.Class\Avalonia.Miniblink\Avalonia.Miniblink\obj\Debug\netstandard2.0\Avalonia.Miniblink.GeneratedMSBuildEditorConfig.editorconfig
+F:\CodeRepository\CSharp\ZBH.Class\Avalonia.Miniblink\Avalonia.Miniblink\obj\Debug\netstandard2.0\Avalonia.Miniblink.AssemblyInfoInputs.cache
+F:\CodeRepository\CSharp\ZBH.Class\Avalonia.Miniblink\Avalonia.Miniblink\obj\Debug\netstandard2.0\Avalonia.Miniblink.AssemblyInfo.cs
+F:\CodeRepository\CSharp\ZBH.Class\Avalonia.Miniblink\Avalonia.Miniblink\obj\Debug\netstandard2.0\Avalonia.Miniblink.csproj.CoreCompileInputs.cache
+F:\CodeRepository\CSharp\ZBH.Class\Avalonia.Miniblink\Avalonia.Miniblink\obj\Debug\netstandard2.0\Avalonia.Miniblink.sourcelink.json
+F:\CodeRepository\CSharp\ZBH.Class\Avalonia.Miniblink\Avalonia.Miniblink\obj\Debug\netstandard2.0\Avalonia.Miniblink.dll
+F:\CodeRepository\CSharp\ZBH.Class\Avalonia.Miniblink\Avalonia.Miniblink\obj\Debug\netstandard2.0\Avalonia.Miniblink.pdb
