@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Avalonia.Miniblink")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Publish")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd58d1c1494364f45a143459c43f385ffded2e86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+807d862bce9cd9402ef82c48e77164fdbd13c34e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Avalonia.Miniblink")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Avalonia.Miniblink")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

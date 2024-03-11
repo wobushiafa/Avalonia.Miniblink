@@ -33,7 +33,7 @@ public class MiniblinkBrowser : NativeControlHost
         _webView?.Dispose();
         _webView = new WebView();
         _webView.Bind(hwnd.Handle);
-        
+
         _webView.OnLoadingFinish += HandleLoadingFinished;
         _webView.OnURLChange += HandleUrlChanged;
         _webView.OnNavigate += HandleNavigated;
@@ -70,6 +70,12 @@ public class MiniblinkBrowser : NativeControlHost
         if (string.IsNullOrEmpty(url)) return;
         _webView?.LoadURL(url);
     });
+
+    public void SetZoom(float scale)
+    {
+        if (_webView is null) return;
+        _webView.ZoomFactor = scale;
+    }
     
     #region Callbacks
     private void HandleUrlChanged(object? sender, UrlChangeEventArgs e) => UrlChanged?.Invoke(this,e);
