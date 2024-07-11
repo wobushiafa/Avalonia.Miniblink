@@ -22,6 +22,7 @@ public class MiniblinkBrowser : NativeControlHost
     public EventHandler<LoadingFinishEventArgs>? LoadingFinshed { get; set; }
     public EventHandler<UrlChangeEventArgs>? UrlChanged { get; set; }
     public EventHandler<NavigateEventArgs>? Navigated { get; set; }
+    public EventHandler<DocumentReadyEventArgs>? DocumentReady { get; set; }
 
     static MiniblinkBrowser()
     {
@@ -38,7 +39,9 @@ public class MiniblinkBrowser : NativeControlHost
         _webView.OnLoadingFinish += HandleLoadingFinished;
         _webView.OnURLChange += HandleUrlChanged;
         _webView.OnNavigate += HandleNavigated;
+        _webView.OnDocumentReady += HandleDocumentReady;
         _webView.NavigationToNewWindowEnable = false;
+
         LoadUrl(Source);
 
         return hwnd;
@@ -51,6 +54,7 @@ public class MiniblinkBrowser : NativeControlHost
             _webView.OnLoadingFinish -= HandleLoadingFinished;
             _webView.OnURLChange -= HandleUrlChanged;
             _webView.OnNavigate -= HandleNavigated;
+            _webView.OnDocumentReady -= HandleDocumentReady;
         }
         _webView?.Dispose();
         _webView = null;
@@ -77,11 +81,18 @@ public class MiniblinkBrowser : NativeControlHost
         if (_webView is null) return;
         _webView.ZoomFactor = scale;
     }
+
+    public void InvokeJavascript(string js)
+    {
+        if (_webView is null) return;
+        _webView.RunJS(js);
+    }
     
     #region Callbacks
     private void HandleUrlChanged(object? sender, UrlChangeEventArgs e) => UrlChanged?.Invoke(this,e);
     private void HandleLoadingFinished(object? sender, LoadingFinishEventArgs e) => LoadingFinshed?.Invoke(this,e);
     private void HandleNavigated(object sender, NavigateEventArgs e) => Navigated?.Invoke(this, e);
+    private void HandleDocumentReady(object sender, DocumentReadyEventArgs e) => DocumentReady?.Invoke(this, e);
 
     #endregion
 }
